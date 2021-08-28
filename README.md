@@ -45,6 +45,9 @@
   ![alt text](assets/screenshot1.png)
   ![alt text](assets/screenshot2.png)
   
+  ## Video Walk-through
+  https://drive.google.com/file/d/1PwlpNCokcJwDPtRbiWDE-y55fRgt7v9_/view?usp=sharing
+  
   ## Technologies
 
     Node.js
