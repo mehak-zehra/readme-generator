@@ -57,6 +57,12 @@ const questions =
 
     {
         type: "input",
+        name: "usage",
+        message: "What does the usage of this tool?",
+    },
+
+    {
+        type: "input",
         name: "contributors",
         message: "Who are the contributors of this repo?",
         default: 'Mehak Zehra'

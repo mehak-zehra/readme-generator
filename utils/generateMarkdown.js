@@ -64,11 +64,7 @@ function generateMarkdown(data) {
   \`\`\`${data.dependencies}\`\`\`
 
   ${usageInfo} \n - - -
-
-  Provide instructions for use. \n 
-  To begin the question prompts, use command line to run node index.\n Answer all of the following questions, once you're finished with the README.md.\n File will be generated in the dist directory.
-  \n To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:\n \n
-  \`\`\`![alt text](assets/images/filename)\`\`\`\
+  ${data.usage}
 
   ${liscenseInfo} \n - - -
   ${renderLicenseSection(data.license)}
